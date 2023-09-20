@@ -1,0 +1,818 @@
+
+
+
+
+:root{
+--color-principal: #473A3A;
+--color-segundario: #a66666;
+--fontcolorsize-letra: #fff;
+--fontsize-pincipal: 40px;
+--fontsize-segundario: 20px
+
+}
+
+.bg-portafolio-nav{
+  
+    background: var(--color-principal);
+    top: 80px;
+    margin: 40px;
+    background-color: transparent;
+    z-index: 1
+     
+}
+.navbar-brand{
+    font-family: 'Alex Brush', cursive;
+    color: #b96666;
+}
+
+.nav-link{
+    color:  var(--fontcolorsize-letra);
+}
+
+.bg-portafolio-nav button {
+  right: -10%;
+  top: 1px;
+  position: relative;
+}
+
+.navbar .nav{
+  position: relative;
+  top: 153px;
+  right: 180%;
+}
+
+
+/*hero de secciones*/
+#hero .cont-foto{
+    position: relative;
+    width: 105%;
+    top: -80px;
+  	right:  -100px;
+
+}
+#hero  .cont-info{
+	position: relative;
+	top:250px;
+	left: 65px;
+
+}   
+
+#hero  .cont-info h1{
+	position: relative;
+	font-size: 80px;
+	color: var(--fontcolorsize-letra);
+	margin-bottom: 30px;
+    font-weight: 700;
+
+}
+
+#hero  .cont-info p{
+	position: relative;
+	font-size:18px;
+	color:var(--fontcolorsize-letra);
+	font-weight: 350;
+
+}
+#hero  .cont-info .btn{
+    position: relative;
+    max-width: 200px;
+    border-color: var(--color-segundario);
+    background-color: var(--color-segundario);
+    border-radius: 8px;
+    padding: 7px;
+  }
+/*HERO1*/
+#hero{
+    padding: 140px 0;
+    margin-bottom: 80px;
+}
+
+#hero .cont-foto1{
+    position: relative;
+    width: 400px;
+}
+#hero .cont-foto1 img{
+    z-index: 2;
+    position: relative;
+    width: 400px;
+    left: 340px;
+    top:100px;
+}
+#hero .cont-foto1::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 370px;
+    background: var(--color-segundario);
+    z-index: 1;
+}
+
+#hero .cont-info1{
+    position: relative;
+    padding-left: 60px;
+    right:  40px;
+
+}
+#hero  .cont-info1 h1{
+	position: relative;
+	font-size: 80px;
+	color: var(--fontcolorsize-letra);
+	margin-bottom: 30px;
+    font-weight: 700;
+
+}
+
+
+
+#hero  .cont-info1 p{
+	position: relative;
+	font-size:20px;
+	color:var(--fontcolorsize-letra);
+	font-weight: 350;
+
+}
+/*ACORDEON*/
+#cdestacadas{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding: 150px 0 100px;
+}
+#cdestacadas h2{
+    font-size: var(--fontSize-title);
+    color: #c6c6c6;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 70px;
+}
+#cdestacadas h2::after{
+    width: 70%;
+    height: 2px;
+    background: #c6c6c6;
+    position: absolute;
+    content: "";
+    right: 0;
+    left: 410px;
+    top: 52%;
+}
+#cdestacadas .card-destacadas{
+    border-radius: 4px;
+    position: relative;
+}
+#cdestacadas .card-destacadas img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+#cdestacadas .card-destacadas .cont-info{
+    background:#f50202;
+    padding: 14px;
+    transition: .4s;
+    border-radius: 0 0  4px 4px ;
+}
+#cdestacadas .card-destacadas .cont-info:hover{
+    background: var(--color-segundario);
+}
+
+.card-destacadas .cont-info h3{
+    font-size: 25px;
+    color: #c6c6c6;
+    font-weight: 600;
+}
+.card-destacadas .cont-info p{
+    color: #c6c6c6;
+    font-size: 16px;
+}
+
+
+
+
+
+#planes{
+    width: 100%;
+    position: relative; 
+    text-align: center;
+    padding: 150px 0 100px;
+    margin-bottom: 30px;
+    margin-top: -200px;
+}
+
+
+
+#planes h2{
+    color: #c6c6c6;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+#planes p{
+    font-size: var(--fontSize-parrafos);
+    color: #c6c6c6;
+}
+#planes .lapso{
+    background:var(--color-segundario);
+    margin-top: 50px;
+    padding: 50px 70px;
+    border-radius: 20px;
+    text-align: left;
+    height: 520px;
+}
+#planes .lapso ul{
+    border: 0 transparent;
+    margin-bottom: 70px;
+    background: #ba7875;
+    max-width: 320px;
+    padding: 10px;
+    border-radius: 50px;
+}
+#planes .lapso ul li button{
+    background: transparent;
+    color: #c6c6c6;
+    border-radius: 30px;
+    width: 100px;
+    border: 0 transparent;
+}
+#planes .lapso ul li button.active{
+    background: var(--color-principal);
+}
+#planes .lapso p{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#planes .lapso p::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    right: 0;
+    top: 40px;
+}
+#planes .plan{
+    background: transparent;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    
+
+}
+
+#planes .plan .accordion-item,#planes .accordion-item button{
+    background: transparent;
+}
+#planes .plan .accordion-item{
+    border-radius: 20px;
+    margin: 30px;
+    border: 1px solid #c6c6c6;
+}
+
+#planes .plan h2{
+    margin: 0;
+    padding: 0;
+    color: #c6c6c6;
+  
+
+}
+#planes .plan .accordion-item button{
+    color:#c6c6c6;
+    box-shadow: 0 0 0 transparent ;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#planes .plan .accordion-item button.accordion-button{
+    background: var(--color-segundario);
+}
+
+#planes .plan .accordion-item button.accordion-button.collapsed{
+    background: var(--color-segundario);
+}
+#planes .plan .accordion-item .accordion-body{
+    color: #cab0b0;
+    font-size: var(--fontSize-parrafos) ;
+}   
+
+
+#niv .niv{
+	position: relative;
+	color:var(--fontcolorsize-letra);
+ 
+}
+/* Estilos para los Campos en la Sección de Cuatro Campos */
+.bg-light-est{
+    background-color: var(--color-principal);
+}
+.campo {
+    background-color:var(--color-segundario);
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.campo:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el cursor */
+}
+
+.campo i {
+    font-size: 48px;
+    color: var(--color-principal); /* Cambia el color del icono según tu preferencia */
+}
+
+.campo h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333; /* Cambia el color del título según tu preferencia */
+}
+
+.campo p {
+    font-size: 16px;
+    color: #333; /* Cambia el color del texto según tu preferencia */
+    margin-bottom: 20px;
+}
+
+.campo a {
+    text-decoration: none;
+    color:#decbcb; /* Cambia el color del enlace según tu preferencia */
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: var(--color-principal);
+    border: var(--color-segundario);
+}
+
+.btn-primary:hover {
+    background-color: #ac8585;
+}
+.campo a:hover {
+    text-decoration: underline; /* Efecto subrayado al pasar el cursor */
+}
+
+/* Estilos para la Sección de Cuatro Campos en Pantallas Pequeñas */
+@media (max-width: 768px) {
+    .campo {
+        text-align: left;
+    }
+
+    .campo h3 {
+        font-size: 20px;
+    }
+
+    .campo i {
+        font-size: 36px;
+    }
+}
+
+
+/* Estilos para el Carrusel */
+
+.carousel-caption{
+    left: 37%;
+bottom: 12px
+}
+/* Estilo para el título dentro de cada diapositiva */
+.carousel-caption h3 {
+    font-size: 24px; /* Tamaño de fuente del título */
+    color: #c6c6c6; /* Color del título */
+    margin-top: 20px; /* Margen superior del título */
+}
+
+.carousel-caption h4 {
+    font-size: 20px; /* Tamaño de fuente del título */
+    color: #c6c6c6; /* Color del título */
+    margin-top: 20px; /* Margen superior del título */
+}
+
+/* Estilo para el párrafo dentro de cada diapositiva */
+.carousel-caption p {
+    font-size: 16px; /* Tamaño de fuente del párrafo */
+    color: var(--color-principal); /* Color del párrafo */
+    margin-bottom: 20px; /* Margen inferior del párrafo */
+}
+
+.carousel-item img{
+    position: relative;
+    padding: 15px;
+   left: 185px ;
+}
+/* Estilo para la sección de carrusel */
+#carrusel {
+
+    padding: 40px 0; /* Espaciado interno arriba y abajo de la sección */
+    margin: 60px 300px;
+    border-radius: 10px;
+    background-color: var(--color-segundario); /* Color de fondo de la sección */
+}
+
+/* Cambiar el color de fondo de los controles de carrusel (flechas) */
+.carousel-control-prev,
+.carousel-control-next {
+    background: none; /* Elimina el fondo de las flechas */
+    border: none; /* Elimina el borde de las flechas */
+    font-size: 24px; /* Tamaño de fuente de las flechas */
+    color: var(--color-segundario); /* Color de las flechas */
+    opacity: 0.8; /* Opacidad de las flechas */
+}
+
+/* Cambiar el color de las flechas al pasar el mouse */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1; /* Restaura la opacidad al pasar el mouse */
+}
+
+/* Añade una sombra suave a las flechas al pasar el mouse */
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/*Contacto*/
+
+#contacto.bg-light {
+    background-color: var(--color-segundario) !important; /* Cambia este color al que prefieras */
+    padding: 65px 20px; /* Espacio interno para el contenido */
+    margin: 60px 300px;
+    border-radius: 10px;
+
+}
+/* Estilos para los íconos de redes sociales en la sección de Contacto */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 15px; /* Espaciado entre íconos */
+}
+
+.social-icons i {
+    font-size: 32px; /* Tamaño de ícono */
+    color: var(--color-principal); /* Color del ícono */
+}
+ 
+
+
+/* Agrega más estilos según sea necesario */
+
+
+body{
+    background-color: var(--color-principal);
+}
+
+
+@media screen and (max-width:820px )  {
+
+    /*Aipad air*/
+    
+   
+#hero .cont-foto1 img{
+        width: 60%;
+        position: relative;
+        top: 360px;
+        left: 110px;
+        
+      }
+    
+      #hero .cont-foto1::before{
+        left: 140px;
+        width: 60%;
+        top:330px;
+      }
+    
+      #hero .cont-info1 {
+           right: -105px; 
+           position: relative;
+      }
+      
+      #hero .cont-foto img {
+        position: relative;
+        left: -64px;
+        width: 650%;
+        top: 305px;
+        z-index: -4;
+      }
+    
+            #hero .cont-info{
+        left: 12px; 
+        top:213px;
+    }  
+    
+    .niv{
+        position:absolute;
+        top: 80px;
+        left: 100px;
+    }
+    
+    .navbar-brand{
+        right: 5px;
+        position: relative;
+    }
+    
+
+    #carousel .container {
+        text-align: center;
+        right: 80px;
+    }
+    
+    #carrusel {
+    
+       position: relative;
+        margin: 80px 10px;
+        border-radius: 10px;
+        right: -25px;
+        
+    }
+    
+    .carousel-item img {
+        position: relative;
+        padding: 16px;
+        left: 106px;
+        width: 32%;
+    }
+    
+    #planes .lapso{
+        position: relative;
+        padding: 12px 120px;
+        margin-top: 50px;
+        right: -20px;
+    }
+    
+    #planes .lapso ul{
+        position: relative;
+        padding: 10px;
+        left: 70px;
+        max-width: 400px;
+        width: 328px;
+    }
+    
+    
+    .carousel-caption{
+        left: 48%;
+        bottom: 30px;
+    }
+    
+    
+    #planes .plan{
+        position: relative;
+        right: -20px;
+    }
+    
+    
+    .bg-light-est{
+        position: relative;
+        right: -20px;
+    }
+    
+    #contacto.bg-light{
+        position: relative;
+        margin: 82px -51px;
+        right: -88px;
+        padding: 56px 43px 62px 63px;
+        width: 98%;
+    }
+    
+    .bg-portafolio-nav button {
+      right: 10%;
+      top: 1px;
+      position: relative;
+    }
+    
+}
+
+@media screen  and (min-width:390px) and (max-width:844px) {
+ /*iPHONE 12 PRO*/
+
+ .niv{
+    position:absolute;
+    top: 80px;
+    left: 25px;
+    }
+
+  #hero .cont-foto1 img{
+    width: 50% ;
+    position: relative;
+    top: -80px;
+    left: 100px;
+    
+  }
+
+  #hero .cont-foto1::before{
+    left: 130px;
+    width: 50%;
+    top:-100px
+  }
+
+  #hero .cont-info1{
+       right: 20px; 
+       position: relative;
+  }
+  
+  #hero .cont-foto img{
+
+    position: relative;
+    left: -52px;
+    width: 70%;
+    top:-169px;
+    z-index: -4;
+  }
+
+    #hero .cont-info{
+    left: 12px; 
+    top:560px;
+    }  
+
+    #carousel .container {
+    text-align: center;
+    right: 80px;
+    }
+
+#carrusel {
+
+   position: relative;
+    margin: 80px 10px;
+    border-radius: 10px;
+    right: 0px;
+    
+    }
+
+.carousel-item img {
+    position: relative;
+    padding: 16px;
+    left: 35px;
+    width: 32%;
+    }
+
+#planes .lapso{
+    position: relative;
+    padding: 12px 60px;
+    margin: 7px 3px;
+    right: -10px;
+    width: 372px;
+    }
+#planes .lapso ul{
+    position: relative;
+    padding: 10px;
+    left: -35px;
+    max-width: 320px;
+    width: 320px;
+    }
+
+
+.carousel-caption{
+    left: 38%;
+    bottom: -39px;
+    }
+#planes .plan{
+right: 0px;
+    }
+.bg-light-est{
+    position: relative;
+    right: 0px;
+    }
+
+#contacto.bg-light{
+    position: relative;
+    margin: 98px -58px;
+    right: -67px;
+    width: 95%;
+    }
+
+}
+
+
+
+@media screen  and (min-width:768px) and (max-width:1024px){
+
+/*Aipad MINI*/
+
+.niv{
+    position:absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.navbar-brand{
+    right: -70px;
+    position: relative;
+}
+
+#hero .cont-foto1 img{
+    width: 60%;
+    position: relative;
+    top: 360px;
+    left: 60px;
+    
+  }
+
+  #hero .cont-foto1::before{
+    left: 90px;
+    width: 60%;
+    top:330px
+  }
+
+  #hero .cont-info1{
+       right: -70px; 
+       position: relative;
+  }
+  
+  #hero .cont-foto img{
+    position: relative;
+    left: -32px;
+    width: 130%;
+    top: 325px;
+    z-index: -4;
+  }
+  #hero .cont-info{
+    left: 12px; 
+    top:213px;
+}  
+
+#carousel .container {
+text-align: center;
+right: 80px;
+}
+
+#carrusel {
+
+    position: relative;
+    margin: 80px 7px;
+    border-radius: 10px;
+    right: -54px;
+    width: 700px;
+    
+}
+
+.carousel-item img {
+    position: relative;
+    padding: 16px;
+    left: 106px;
+    width: 32%;
+}
+
+#planes .lapso{
+    position: relative;
+    padding: 12px 120px;
+    margin-top: 27px;
+    right: -76px;
+    width: 550px;
+}
+
+#planes .lapso ul{
+    position: relative;
+    padding: 10px;
+    left: -12px;
+    max-width: 400px;
+    width: 328px;
+}
+
+.carousel-caption{
+    left: 48%;
+    bottom: 30px;
+}
+
+
+#planes .plan{
+right: 0px;
+}
+.bg-light-est{
+    position: relative;
+    right: 0px;
+}
+
+#contacto.bg-light{
+    position: relative;
+    margin: 82px -40px;
+    right: -100px;
+    padding: 48px 1px 52px 37px;
+    width: 700px;
+}
+
+.bg-portafolio-nav button {
+  right: 10%;
+  top: 1px;
+  position: relative;
+}
+
+}
+
+
+@media screen and (min-width:800px) and (max-width:1280px){
+
+
+
+}
+
+
+@media screen and  (max-width:1920px){
+
+ 
+}
